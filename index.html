@@ -1,0 +1,235 @@
+<!--
+  Greetings!
+
+  This delightful template has been meticulously crafted and brought to life by Syed Mohsin. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
+-->
+
+<!-- For any inquiries or collaborations reach out to me at devsyedmohsin@gmail.com -->
+
+<!--
+  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a system's programmer in making and I am interested in low-level and abstract systems, tools and technologies. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Subhadip Roy Chowdhury's Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a system's programmer in making and I am interested in low-level and abstract systems, tools and technologies. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Subhadip Roy Chowdhury's Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a system's programmer in making and I am interested in low-level and abstract systems, tools and technologies. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Subhadip Roy Chowdhury's Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a system's programmer in making and I am interested in low-level and abstract systems, tools and technologies. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/sharing-card.png">
+
+
+<!-- Update favicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="assets/favicon.webp"
+      type="image/png"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/0xProtoNerdFont-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Subhadip Roy Chowdhury's Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <!-- <li class="nav-item"><a href="#work">My Work</a></li>
+          <li class="nav-item"><a href="#blog">See Blog</a></li> -->
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            <span>Hi, I'm Subhadip Roy Chowdhury</span>
+            <span>System's Programmer</span>
+          </h1>
+
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+            I am a system's programmer in making and I am interested in
+            low-level and abstract systems, tools and technologies.
+          </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Contact me</a>
+            <a href="https://github.com/voidptrnull?tab=repositories" class="btn btn-secondary">See my work</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/skill for your convenience feel free to pick one if required  -->
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">Languages</h2>
+          <div class="skills-imgs">
+                 <img src="assets/icons/C.svg" alt="C" class="skills-img" loading="lazy" title="C">
+                 <img src="assets/icons/CPP.svg" alt="C++" class="skills-img" loading="lazy" title="C++">
+                 <img src="assets/icons/Rust.svg" alt="Rust" class="skills-img" loading="lazy" title="Rust">
+                 <img src="assets/icons/Java-Dark.svg" alt="Java" class="skills-img" loading="lazy" title="Java">
+                 <img src="assets/icons/Python-Dark.svg" alt="Python" class="skills-img" loading="lazy" title="Python">
+                 <img src="assets/icons/Markdown-Dark.svg" alt="Markdown" class="skills-img" loading="lazy" title="Markdown">
+                 <img src="assets/icons/Lua-Dark.svg" alt="Lua" class="skills-img" loading="lazy" title="Lua">
+                 <img src="assets/icons/Bash-Dark.svg" alt="Bash/Zsh" class="skills-img" loading="lazy" title="Bash/Zsh">
+                 </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">Some Tools</h2>
+          <div class="skills-imgs">
+                 <img src="assets/icons/Git.svg" alt="Git" class="skills-img" loading="lazy" title="Git">
+                 <img src="assets/icons/Docker.svg" alt="Docker" class="skills-img" loading="lazy" title="Docker">
+                 <img src="assets/icons/CMake-Dark.svg" alt="CMake" class="skills-img" loading="lazy" title="CMake">
+                 <img src="assets/icons/Eclipse-Dark.svg" alt="Eclipse" class="skills-img" loading="lazy" title="Eclipse">
+                 </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">Operating Systems</h2>
+          <div class="skills-imgs">
+                 <img src="assets/icons/Gentoo-Dark.png" alt="Gentoo Linux" class="skills-img" loading="lazy" title="Gentoo Linux">
+                 <img src="assets/icons/Arch-Dark.svg" alt="Arch Linux" class="skills-img" loading="lazy" title="Arch Linux">
+                 <img src="assets/icons/Debian-Dark.svg" alt="Debian" class="skills-img" loading="lazy" title="Debian">
+                 <img src="assets/icons/Fedora-Dark.png" alt="Fedora" class="skills-img" loading="lazy" title="Fedora">
+                 <img src="assets/icons/Linux-Dark.svg" alt="Other Linux Distributions" class="skills-img" loading="lazy" title="Other Linux Distributions">
+                 </figure>
+                 <img src="assets/icons/BSD-Dark.svg" alt="FreeBSD" class="skills-img" loading="lazy" title="FreeBSD">
+                 <img src="assets/icons/OpenBSD.png" alt="OpenBSD" class="skills-img" loading="lazy" title="OpenBSD">
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <img src="assets/bg_contact.jpg" alt="Contact" class="contact-content" loading="lazy" title="Contact">
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/voidptrnull" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/icons/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2024</span> - <a target="_blank" rel="noopener" href="https://github.com/voidptrnull">Subhadip Roy Chowdhury</a>. Template designed & developed by <a target="_blank" rel="noopener" href="https://github.com/devsyedmohsin">Syed Mohsin</a>.
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
