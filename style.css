@@ -4,8 +4,8 @@
 
 @font-face {
   font-family: "0xProto Nerd Font";
-  src: url("assets/fonts/0xProtoNerdFont-Regular.ttf") format("ttf supports variations"),
-    url("assets/fonts/0xProtoNerdFont-Regular.ttf") format("ttf-variations");
+  src: url("assets/fonts/0xProtoNerdFont-Regular.woff2") format("woff2 supports variations"),
+    url("assets/fonts/0xProtoNerdFont-Regular.woff2") format("woff2-variations");
   font-display: swap;
   font-weight: 200 900;
   font-stretch: 75% 125%;
