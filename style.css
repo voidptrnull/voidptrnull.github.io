@@ -4,9 +4,9 @@
 
 @font-face {
   font-family: "Anonymous Pro";
-  src: url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap")
+  src: url("https://fonts.gstatic.com/s/anonymouspro/v21/rP2Bp2a15UIB7Un-bOeISG3pHls29Q.woff2")
       format("woff2 supports variations"),
-    url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap")
+    url("https://fonts.gstatic.com/s/anonymouspro/v21/rP2Bp2a15UIB7Un-bOeISG3pHls29Q.woff2")
       format("woff2-variations");
   font-display: swap;
   font-weight: 200 900;
@@ -82,7 +82,7 @@ body.light {
 }
 
 html {
-  font-family: "InputMono Nerd Font";
+  font-family: "Anonymous Pro";
   box-sizing: border-box;
   scroll-padding-top: var(--scroll-padding);
 }
