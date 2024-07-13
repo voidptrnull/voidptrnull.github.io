@@ -3,9 +3,11 @@
 /* --------------------------------- */
 
 @font-face {
-  font-family: "InputMono";
-  src: url("assets/fonts/InputMono-Regular.woff2") format("woff2 supports variations"),
-    url("assets/fonts/InputMono-Regular.woff2") format("woff2-variations");
+  font-family: "Anonymous Pro";
+  src: url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap")
+      format("woff2 supports variations"),
+    url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap")
+      format("woff2-variations");
   font-display: swap;
   font-weight: 200 900;
   font-stretch: 75% 125%;
