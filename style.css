@@ -3,9 +3,9 @@
 /* --------------------------------- */
 
 @font-face {
-  font-family: "0xProto Nerd Font";
-  src: url("assets/fonts/0xProtot-Regular.woff2") format("woff2 supports variations"),
-    url("assets/fonts/0xProto-Regular.woff2") format("woff2-variations");
+  font-family: "InputMono";
+  src: url("assets/fonts/InputMono-Regular.woff2") format("woff2 supports variations"),
+    url("assets/fonts/InputMono-Regular.woff2") format("woff2-variations");
   font-display: swap;
   font-weight: 200 900;
   font-stretch: 75% 125%;
@@ -80,7 +80,7 @@ body.light {
 }
 
 html {
-  font-family: "0xProto Nerd Font";
+  font-family: "InputMono Nerd Font";
   box-sizing: border-box;
   scroll-padding-top: var(--scroll-padding);
 }
